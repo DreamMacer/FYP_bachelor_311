@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-11 20:15:01.003348 by randomTrips.py v1_22_0+0002-63e50f52594
+<configuration>
+    <net-file value="4_station_strip.net.xml"/>
+    <prefix value="EV"/>
+    <vehicle-class value="evehicle"/>
+    <end value="20.0"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="EV_evehicle" vClass="evehicle"/>
+    <trip id="EV0" depart="0.00" from="E12.536" to="E12.104" type="EV_evehicle"/>
+    <trip id="EV1" depart="1.00" from="E12.253" to="E12.253" type="EV_evehicle"/>
+    <trip id="EV2" depart="2.00" from="E13" to="E13" type="EV_evehicle"/>
+    <trip id="EV3" depart="3.00" from="E15" to="E12.191" type="EV_evehicle"/>
+    <trip id="EV4" depart="4.00" from="E12.404" to="E12.104" type="EV_evehicle"/>
+    <trip id="EV5" depart="5.00" from="E12.191" to="E12.536" type="EV_evehicle"/>
+    <trip id="EV6" depart="6.00" from="E12" to="E12.253" type="EV_evehicle"/>
+    <trip id="EV7" depart="7.00" from="E12.536" to="E12.536" type="EV_evehicle"/>
+    <trip id="EV8" depart="8.00" from="E12.191" to="E12.632" type="EV_evehicle"/>
+    <trip id="EV9" depart="9.00" from="E14" to="E12.104" type="EV_evehicle"/>
+    <trip id="EV10" depart="10.00" from="E14" to="E13" type="EV_evehicle"/>
+    <trip id="EV11" depart="11.00" from="E12.323" to="E12.191" type="EV_evehicle"/>
+    <trip id="EV12" depart="12.00" from="E16" to="E12.404" type="EV_evehicle"/>
+    <trip id="EV13" depart="13.00" from="E12.104" to="E12.191" type="EV_evehicle"/>
+    <trip id="EV14" depart="14.00" from="E15" to="E12.632" type="EV_evehicle"/>
+    <trip id="EV15" depart="15.00" from="E14" to="E13" type="EV_evehicle"/>
+    <trip id="EV16" depart="16.00" from="E12.473" to="E16" type="EV_evehicle"/>
+    <trip id="EV17" depart="17.00" from="E12.323" to="E12.536" type="EV_evehicle"/>
+    <trip id="EV18" depart="18.00" from="E14" to="E12.632" type="EV_evehicle"/>
+    <trip id="EV19" depart="19.00" from="E15" to="E12.536" type="EV_evehicle"/>
+</routes>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-11 21:43:57 by Eclipse SUMO GUI Version 1.22.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="src/dataset/4_station_strip/4_station_strip.net.xml"/>
+        <route-files value="src/dataset/4_station_strip/4_station_strip_ev.rou.xml"/>
+        <additional-files value="src/dataset/4_station_strip/4_station_strip.cs.add.xml"/>
+    </input>
+
+    <output>
+        <battery-output value="src/dataset/4_station_strip/battery.xml"/>
+        <chargingstations-output value="src/dataset/4_station_strip/chargingstations.xml"/>
+        <summary-output value="src/dataset/4_station_strip/results.out.xml"/>
+    </output>
+
+    <processing>
+        <collision.check-junctions value="True"/>
+        <time-to-teleport value="-1"/>
+        <waiting-time-memory value="999999"/>
+        <max-depart-delay value="-1"/>
+        <lanechange.overtake-right value="False"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="52021"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="1"/>
+    </random_number>
+
+    <gui_only>
+        <quit-on-end value="true"/>
+        <start value="true"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<battery-export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/battery_file.xsd">
+    <timestep time="0.00">
+        <vehicle id="EV1" energyConsumed="0.00" totalEnergyConsumed="0.00" totalEnergyRegenerated="0.00" actualBatteryCapacity="892.35" maximumBatteryCapacity="2000.00" chargingStationId="NULL" energyCharged="0.00" energyChargedInTransit="0.00" energyChargedStopped="0.00" speed="0.00" acceleration="0.00" x="-79.77" y="708.03" lane="E12_1" posOnLane="5.10" timeStopped="0"/>
+        <vehicle id="EV2" energyConsumed="0.00" totalEnergyConsumed="0.00" totalEnergyRegenerated="0.00" actualBatteryCapacity="826.85" maximumBatteryCapacity="2000.00" chargingStationId="NULL" energyCharged="0.00" energyChargedInTransit="0.00" energyChargedStopped="0.00" speed="0.30" acceleration="0.00" x="-79.03" y="704.91" lane="E12_0" posOnLane="5.10" timeStopped="0"/>
+    </timestep>
+</battery-export>

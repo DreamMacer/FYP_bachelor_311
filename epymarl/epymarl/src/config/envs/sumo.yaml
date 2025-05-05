@@ -1,0 +1,32 @@
+env: "sumo"
+
+env_args:
+  net_file: "src/dataset/2_station_strip/2_station_strip.net.xml"  # 替换为你的网络文件路径
+  sim_file: "src/dataset/2_station_strip/2_station_strip.sumocfg"  # 替换为你的模拟文件路径
+  begin_time: 0
+  seconds: 10000
+  enable_gui: False
+  # sumo_seed: "random"
+  sumo_warnings: true
+  add_per_agent_info: true
+  virtual_display: [3200, 1800]
+  max_depart_delay: -1
+  waiting_time_memory: 1000
+  time_to_teleport: -1
+  delta_time: 5
+  add_system_info: true
+  additional_sumo_cmd: null
+  output_file: "results/sumo_results01"
+  #single_agent: False
+  map_name: "test"
+
+
+  
+
+test_greedy: true
+test_nepisode: 100
+test_interval: 50000
+log_interval: 50000
+runner_log_interval: 10000
+learner_log_interval: 10000
+t_max: 2050000 

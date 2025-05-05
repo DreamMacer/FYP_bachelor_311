@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-14 22:06:15 by Eclipse SUMO netedit Version 1.22.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="EV" length="5.00" minGap="2.50" maxSpeed="29.06" vClass="evehicle" emissionClass="Energy/default" guiShape="evehicle" accel="1.0" decel="1.0" sigma="0.5">
+        <param key="airDragCoefficient" value="0.35"/>
+        <param key="constantPowerIntake" value="100"/>
+        <param key="device.battery.capacity" value="2000"/>
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <param key="frontSurfaceArea" value="2.6"/>
+        <param key="has.battery.device" value="true"/>
+        <param key="maximumPower" value="150000"/>
+        <param key="propulsionEfficiency" value=".98"/>
+        <param key="radialDragCoefficient" value="0.1"/>
+        <param key="recuperationEfficiency" value=".96"/>
+        <param key="rollDragCoefficient" value="0.01"/>
+        <param key="rotatingMass" value="40"/>
+        <param key="stoppingThreshold" value="0.1"/>
+    </vType>
+    <!-- Routes -->
+    <!-- <route id="r_0" edges="5670203#0"/>
+    <route id="r_1" edges="234726492#3"/>
+    <route id="r_2" edges="5670688#0"/>
+    <route id="r_3" edges="5671137#4"/>
+    <route id="r_4" edges="5673305#6"/>
+    <route id="r_5" edges="608355937#1"/>
+    <route id="r_6" edges="5671257#2"/>
+    <route id="r_7" edges="5671137#2"/>
+    <route id="r_8" edges="5670688#2"/>
+    <route id="r_9" edges="234726492#1"/> -->
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <vehicle id="EV0" type="EV" depart="0.00">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="-196117053#1 -735173276#1"/>
+    </vehicle>
+    <vehicle id="EV1" type="EV" depart="0.00">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="-577976192#13 -577976192#12"/>
+    </vehicle>
+    <vehicle id="EV2" type="EV" depart="0.00">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="223503127#6 223503127#7"/>
+    </vehicle>
+    <vehicle id="EV3" type="EV" depart="0.00">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="-196116967#1 -196116967#0"/>
+    </vehicle>
+    <vehicle id="EV4" type="EV" depart="0.00">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="195743146#6 524558206#0"/>
+    </vehicle>
+    <vehicle id="EV5" type="EV" depart="0.00">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="525667719 525667715#0"/>
+    </vehicle>
+    <vehicle id="EV6" type="EV" depart="0.00">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="195743146#0 195743146#1"/>
+    </vehicle>
+    <vehicle id="EV7" type="EV" depart="0.00">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="195743146#3 195743146#4"/>
+    </vehicle>
+    <vehicle id="EV8" type="EV" depart="0.00">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="455687907#4 455687907#5"/>
+    </vehicle>
+    <vehicle id="EV9" type="EV" depart="0.00">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="455687907#1 455687907#2"/>
+    </vehicle>
+    <vehicle id="EV10" type="EV" depart="0.00">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="5670203#0"/>
+    </vehicle>
+    <vehicle id="EV11" type="EV" depart="0.00">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="234726492#3"/>
+    </vehicle>
+    <vehicle id="EV12" type="EV" depart="0.00">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="5670688#0"/>
+    </vehicle>
+    <vehicle id="EV13" type="EV" depart="0.00">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="5671137#4"/>
+    </vehicle>
+    <vehicle id="EV14" type="EV" depart="0.00">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="5673305#6"/>
+    </vehicle>
+    <vehicle id="EV15" type="EV" depart="0.00">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="608355937#1"/>
+    </vehicle>
+    <vehicle id="EV16" type="EV" depart="0.00">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="5671257#2"/>
+    </vehicle>
+    <vehicle id="EV17" type="EV" depart="0.00">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="5671137#2"/>
+    </vehicle>
+    <vehicle id="EV18" type="EV" depart="0.00">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="5670688#2"/>
+    </vehicle>
+    <vehicle id="EV19" type="EV" depart="0.00">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="234726492#1"/>
+    </vehicle>
+    <trip id="t_0" depart="0.00" from="165473832#2" to="-577976192#7" via="165473832#3 68668550#1 -735173276#1 -735173276#0 gneE13 735173276#0 608355942 -455688156 -5670226#1"/>
+    <trip id="t_1" depart="0.00" from="525667717" to="525667717"/>
+    <trip id="t_10" depart="0.00" from="165473832#2" to="165473832#2"/>
+    <trip id="t_11" depart="0.00" from="5673106#2" to="5673106#2"/>
+    <trip id="t_12" depart="0.00" from="5673106#3" to="5673106#3"/>
+    <trip id="t_13" depart="0.00" from="5673106#0" to="5673106#0"/>
+    <trip id="t_14" depart="0.00" from="-497252083#3" to="-497252083#3"/>
+    <trip id="t_2" depart="0.00" from="525667718#0" to="525667718#0"/>
+    <trip id="t_3" depart="0.00" from="828307999" to="828307999"/>
+    <trip id="t_4" depart="0.00" from="-5670226#5" to="-5670226#5"/>
+    <trip id="t_5" depart="0.00" from="-577976192#7" to="-577976192#7"/>
+    <trip id="t_6" depart="0.00" from="-5670735#1" to="-5670735#1"/>
+    <trip id="t_7" depart="0.00" from="-5670226#0" to="-5670226#0"/>
+    <trip id="t_8" depart="0.00" from="5671137#0" to="5671137#0"/>
+    <trip id="t_9" depart="0.00" from="5670688#4" to="5670688#4"/>    
+</routes>
+

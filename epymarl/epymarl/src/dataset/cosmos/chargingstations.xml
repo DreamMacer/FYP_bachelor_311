@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-15 09:07:18 by Eclipse SUMO sumo Version 1.22.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="src/dataset/cosmos/cosmos.net.xml"/>
+        <route-files value="src/dataset/cosmos/cosmos.rou.xml"/>
+        <additional-files value="src/dataset/cosmos/cosmos.cs.add.xml"/>
+    </input>
+
+    <output>
+        <battery-output value="src/dataset/cosmos/battery.xml"/>
+        <chargingstations-output value="src/dataset/cosmos/chargingstations.xml"/>
+        <summary-output value="src/dataset/cosmos/results.out.xml"/>
+    </output>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+        <waiting-time-memory value="999999"/>
+        <max-depart-delay value="-1"/>
+    </processing>
+
+    <report>
+        <verbose value="false"/>
+        <duration-log.statistics value="false"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="39619"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="1"/>
+    </random_number>
+
+</sumoConfiguration>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-11 20:15:31 by Eclipse SUMO duarouter Version 1.22.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="4_station_strip.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="4_station_strip_ev.rou.xml"/>
+    </output>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="EV_evehicle" vClass="evehicle"/>
+    <vehicle id="EV1" type="EV_evehicle" depart="1.00">
+        <routeDistribution last="0">
+            <route cost="4.39" probability="1.00000000" edges="E12.253"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="EV2" type="EV_evehicle" depart="2.00">
+        <routeDistribution last="0">
+            <route cost="50.00" probability="1.00000000" edges="E13"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="EV5" type="EV_evehicle" depart="5.00">
+        <routeDistribution last="0">
+            <route cost="25.50" probability="1.00000000" edges="E12.191 E12.253 E12.323 E12.404 E12.473 E12.536"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="EV6" type="EV_evehicle" depart="6.00">
+        <routeDistribution last="0">
+            <route cost="24.79" probability="1.00000000" edges="E12 E12.104 E12.191 E12.253"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="EV7" type="EV_evehicle" depart="7.00">
+        <routeDistribution last="0">
+            <route cost="3.79" probability="1.00000000" edges="E12.536"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="EV8" type="EV_evehicle" depart="8.00">
+        <routeDistribution last="0">
+            <route cost="34.27" probability="1.00000000" edges="E12.191 E12.253 E12.323 E12.404 E12.473 E12.536 E12.632"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="EV13" type="EV_evehicle" depart="13.00">
+        <routeDistribution last="0">
+            <route cost="8.24" probability="1.00000000" edges="E12.104 E12.191"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="EV14" type="EV_evehicle" depart="14.00">
+        <routeDistribution last="0">
+            <route cost="68.36" probability="1.00000000" edges="E15 E12.473 E12.536 E12.632"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="EV16" type="EV_evehicle" depart="16.00">
+        <routeDistribution last="0">
+            <route cost="56.01" probability="1.00000000" edges="E12.473 E16"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="EV17" type="EV_evehicle" depart="17.00">
+        <routeDistribution last="0">
+            <route cost="16.20" probability="1.00000000" edges="E12.323 E12.404 E12.473 E12.536"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="EV18" type="EV_evehicle" depart="18.00">
+        <routeDistribution last="0">
+            <route cost="76.08" probability="1.00000000" edges="E14 E12.323 E12.404 E12.473 E12.536 E12.632"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="EV19" type="EV_evehicle" depart="19.00">
+        <routeDistribution last="0">
+            <route cost="59.59" probability="1.00000000" edges="E15 E12.473 E12.536"/>
+        </routeDistribution>
+    </vehicle>
+</routes>

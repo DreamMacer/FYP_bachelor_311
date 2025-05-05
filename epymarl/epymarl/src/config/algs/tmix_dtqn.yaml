@@ -1,0 +1,57 @@
+# --- QMIX specific parameters ---
+
+#DTQN Agents
+inner_embed_size: 128 #512
+num_heads: 1
+num_layers: 1
+dtqn_dropout: 0.0
+gate: "res"
+identity: "store_true"
+pos: "learned"
+discrete: False
+vocab_sizes: None
+action_embed_dim: 16
+context_len: 10
+device: "cuda"
+# use epsilon greedy action selector
+action_selector: "epsilon_greedy"
+epsilon_start: 1.0
+epsilon_finish: 0.05
+epsilon_anneal_time: 500000 #900000 #80000 #50000 #60000 
+evaluation_epsilon: 0.0
+runner: "episode"
+# runner: "parallel"
+
+buffer_size: 5000
+
+# update the target network every {} episodes
+target_update_interval: 200
+target_update_interval_or_tau: 200 
+obs_agent_id: True
+obs_last_action: True
+obs_individual_obs: False
+# learning rate
+lr_reduce_interval: 100000
+lr_step: 0.6
+
+# use the Q_Learner to train
+standardise_returns: False
+standardise_rewards: True
+agent_output_type: "q"
+learner: "dtqnlearner"
+double_q: True
+vs_enabled: True
+
+mixer: "dmix"
+use_rnn: False
+mixing_embed_dim: 32
+hypernet_layers: 2
+hypernet_embed: 64
+embed_dim: 512
+out_channels: 512
+t_dim: 512
+ff: 2048
+heads: 4
+t_depth: 1
+is_noise: False
+name: "dmix"

@@ -1,0 +1,13 @@
+--2025-03-04 13:29:37--  https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.6.3/omnetpp-5.6.3-src-linux.tgz
+Resolving github.com (github.com)... 20.205.243.166
+Connecting to github.com (github.com)|20.205.243.166|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/160219599/0bfd6d40-238e-4da9-a0a5-130f2870056a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250304T052938Z&X-Amz-Expires=300&X-Amz-Signature=f10be091cec8d33252d98b45048f820ab4029901925197b620f039bf3c763628&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Domnetpp-5.6.3-src-linux.tgz&response-content-type=application%2Foctet-stream [following]
+--2025-03-04 13:29:38--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/160219599/0bfd6d40-238e-4da9-a0a5-130f2870056a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250304T052938Z&X-Amz-Expires=300&X-Amz-Signature=f10be091cec8d33252d98b45048f820ab4029901925197b620f039bf3c763628&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Domnetpp-5.6.3-src-linux.tgz&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.108.133, 185.199.110.133, 185.199.109.133
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 281582867 (269M) [application/octet-stream]
+Saving to: 'omnetpp-5.6.3-src-linux.tgz'
+
+

@@ -1,0 +1,32 @@
+<additional>
+    <chargingStation power="100000" efficiency="0.95" startPos="45" endPos="50" id="1" lane="E28_0" />
+    <parkingArea startPos="45" endPos="50" roadsideCapacity="1" width="5" length="10" friendlyPos ="true" onRoad = "True" id="1" lane="E28_0"/>
+
+    <chargingStation power="100000" efficiency="0.95" startPos="45" endPos="50" id="2" lane="E7_0"/>
+    <parkingArea startPos="45" endPos="50" roadsideCapacity="1" width="5" length="10" friendlyPos ="true" onRoad = "True" id="2" lane="E7_0"/>
+
+    <chargingStation power="100000" efficiency="0.95" startPos="45" endPos="50" id="3" lane="E25_0"/>
+    <parkingArea startPos="45" endPos="50" roadsideCapacity="1" width="5" length="10" friendlyPos ="true" onRoad = "True" id="3" lane="E25_0"/>
+
+    <chargingStation power="100000" efficiency="0.95" startPos="45" endPos="50" id="4" lane="E4_0"/>
+    <parkingArea startPos="45" endPos="50" roadsideCapacity="1" width="5" length="10" friendlyPos ="true" onRoad = "True" id="4" lane="E4_0"/>
+
+    <chargingStation power="100000" efficiency="0.95" startPos="45" endPos="50" id="5" lane="E2_0"/>
+    <parkingArea startPos="45" endPos="50" roadsideCapacity="1" width="5" length="10" friendlyPos ="true" onRoad = "True" id="5" lane="E2_0"/>
+
+    <chargingStation power="100000" efficiency="0.95" startPos="45" endPos="50" id="6" lane="E19_0"/>
+    <parkingArea startPos="45" endPos="50" roadsideCapacity="1" width="5" length="10" friendlyPos ="true" onRoad = "True" id="6" lane="E19_0"/>
+
+    <chargingStation power="100000" efficiency="0.95" startPos="45" endPos="50" id="7" lane="E8_0"/>
+    <parkingArea startPos="45" endPos="50" roadsideCapacity="1" width="5" length="10" friendlyPos ="true" onRoad = "True" id="7" lane="E8_0"/>
+
+    <chargingStation power="100000" efficiency="0.95" startPos="45" endPos="50" id="8" lane="E21_0"/>
+    <parkingArea startPos="45" endPos="50" roadsideCapacity="1" width="5" length="10" friendlyPos ="true" onRoad = "True" id="8" lane="E21_0"/>
+
+    <chargingStation power="100000" efficiency="0.95" startPos="45" endPos="50" id="9" lane="E22_0"/>
+    <parkingArea startPos="45" endPos="50" roadsideCapacity="1" width="5" length="10" friendlyPos ="true" onRoad = "True" id="9" lane="E22_0"/>
+
+    <chargingStation power="100000" efficiency="0.95" startPos="45" endPos="50" id="10" lane="E26_0"/>
+    <parkingArea startPos="45" endPos="50" roadsideCapacity="1" width="5" length="10" friendlyPos ="true" onRoad = "True" id="10" lane="E26_0"/>
+
+</additional>

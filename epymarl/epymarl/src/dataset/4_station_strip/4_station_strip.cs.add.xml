@@ -1,0 +1,14 @@
+    <additional>
+        <chargingStation chargeDelay="2" chargeInTransit="0" power="100000" efficiency="0.95" startPos="45" endPos="50" id="1" lane="E13_0" />
+        <parkingArea startPos="45" endPos="50" roadsideCapacity="1" width="5" length="10" friendlyPos ="true" onRoad = "True" id="1" lane="E13_0"/>
+
+        <chargingStation chargeDelay="2" chargeInTransit="0" power="100000" efficiency="0.95" startPos="45" endPos="50" id="2" lane="E14_0"/>
+        <parkingArea startPos="45" endPos="50" roadsideCapacity="1" width="5" length="10" friendlyPos ="true" onRoad = "True" id="2" lane="E14_0"/>
+
+        <chargingStation chargeDelay="2" chargeInTransit="0" power="100000" efficiency="0.95" startPos="45" endPos="50" id="3" lane="E15_0"/>
+        <parkingArea startPos="45" endPos="50" roadsideCapacity="1" width="5" length="10" friendlyPos ="true" onRoad = "True" id="3" lane="E15_0"/>
+
+        <chargingStation chargeDelay="2" chargeInTransit="0" power="100000" efficiency="0.95" startPos="45" endPos="50" id="4" lane="E16_0"/>
+        <parkingArea startPos="45" endPos="50" roadsideCapacity="1" width="5" length="10" friendlyPos ="true" onRoad = "True" id="4" lane="E16_0"/>
+
+    </additional>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-11 21:05:27 by Eclipse SUMO netedit Version 1.22.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="EV_evehicle" length="5.00" minGap="2.50" maxSpeed="29.06" vClass="evehicle" emissionClass="Energy/default" color="white" accel="1.0" decel="1.0" sigma="0.0">
+        <param key="Mass" value="1830"/>
+        <param key="airDragCoefficient" value="0.35"/>
+        <param key="collisionMinGapFactor" value="1.0"/>
+        <param key="constantPowerIntake" value="100"/>
+        <param key="device.battery.capacity" value="2000"/>
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <param key="frontSurfaceArea" value="2.6"/>
+        <param key="has.battery.device" value="true"/>
+        <param key="maximumPower" value="150000"/>
+        <param key="propulsionEfficiency" value=".98"/>
+        <param key="radialDragCoefficient" value="0.1"/>
+        <param key="recuperationEfficiency" value=".96"/>
+        <param key="rollDragCoefficient" value="0.01"/>
+        <param key="rotatingMass" value="0.01"/>
+        <param key="stoppingThreshold" value="0.1"/>
+    </vType>
+    <!-- Routes -->
+    <!-- <route id="r_0" edges="E12 E12.104 E12.191 E12.253 E12.323 E12.404 E12.473 E12.536 E12.632"/> -->
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <vehicle id="EV1" type="EV_evehicle" depart="0.00" departLane="random" departSpeed="0">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="E12 E12.104 E12.191 E12.253 E12.323 E12.404 E12.473 E12.536 E12.632"/>
+    </vehicle>
+    <vehicle id="EV13" type="EV_evehicle" depart="0.00" departLane="random" departSpeed="0.2">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="E12 E12.104 E12.191 E12.253 E12.323 E12.404 E12.473 E12.536 E12.632"/>
+    </vehicle>
+    <vehicle id="EV2" type="EV_evehicle" depart="0.00" departLane="random" departSpeed="0.3">
+        <param key="device.battery.chargeLevel" value="-1" />
+        <route edges="E12 E12.104 E12.191 E12.253 E12.323 E12.404 E12.473 E12.536 E12.632"/>
+    </vehicle>
+    <!-- <vehicle id="EV5" type="EV_evehicle" depart="0.00" departLane="random" departSpeed="0.1">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="E12 E12.104 E12.191 E12.253 E12.323 E12.404 E12.473 E12.536 E12.632"/>
+    </vehicle>
+    <vehicle id="EV6" type="EV_evehicle" depart="0.00" departLane="random" departSpeed="random">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="E12 E12.104 E12.191 E12.253 E12.323 E12.404 E12.473 E12.536 E12.632"/>
+    </vehicle>
+    <vehicle id="EV7" type="EV_evehicle" depart="0.00" departLane="random" departSpeed="random">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="E12 E12.104 E12.191 E12.253 E12.323 E12.404 E12.473 E12.536 E12.632"/>
+    </vehicle>
+    <vehicle id="EV8" type="EV_evehicle" depart="0.00" departLane="random" departSpeed="random">
+        <param key="device.battery.chargeLevel" value="-1"/>
+        <route edges="E12 E12.104 E12.191 E12.253 E12.323 E12.404 E12.473 E12.536 E12.632"/>
+    </vehicle> -->
+    <flow id="A" begin="0.00" departLane="best" departPos="base" departSpeed="max" color="128,128,0" from="E12" to="E12.632" end="10000000.00" probability="0.10000000000000000555"/>
+    <flow id="B" begin="0.00" departLane="best" departPos="base" departSpeed="max" color="blue" from="E12" to="E12.632" end="10000000.00" probability="0.05000000000000000278"/>
+</routes>

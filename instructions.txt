@@ -1,0 +1,12 @@
+It contains my independent work during "3+1+1" program in NUS(Chongqing).
+In Epymarl contains my trials and results using SUMO an MARL.
+The 4200 project provided my answer to the EEC4200 course completion practice.
+FYP encompasses the results of my efforts during the CA1 stage. I have constructed a brand-new network architecture of dtqn+transformer and rnn+transformer. 
+In epymarl, I mainly recorded my practice in SUMO and an independently completed multi-agent game environment based on SUMO
+The SUMO-based environment is in envs/ev_envfmp.py.
+test_wrapper.py is a wrapper to satisfy the requirements of multi-agent environment.
+The transformer+rnn architecture is in modules/mixers/tmix3.py
+Customized map is in dataset.
+If you want to test it, please run command:
+python src/main.py --config=tmix3 --env-config=gymma with env_args.time_limit=200 env_args.key="test-parallel-v6"
+仅以此，记录我的青春、我的汗水以及我的梦想。
